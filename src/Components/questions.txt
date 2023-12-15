@@ -1,19 +1,19 @@
 Answer all of the questions below. Make sure to save and push answers! Good luck. 
 
 1. A React component rerenders when:
-    [] It's internal state is updated
+    [x] It's internal state is updated
     [] useEffect is called
     [] It's props change
     [] An event is fired from a node in its output
 
 2. If you want to perform an action once when a component loads, you should put that code:
-    [] In the body of the component function
+    [x] In the body of the component function
     [] Outside the body of the compoentn function
-    [] In a call to the useEffect hook
+    [x] In a call to the useEffect hook
     [] This is impossible to do in react
 
 3. True / false: Nested components are also called child components.
-    [] True
+    [x] True
     [] False
 
 4. (Write answer below) - What does the import keyword do? What similar keyword do we use for javascript that is running in a NodeJS environment (using CommonJS)?
