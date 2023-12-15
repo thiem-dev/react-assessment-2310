@@ -9,7 +9,7 @@ Answer all of the questions below. Make sure to save and push answers! Good luck
 2. If you want to perform an action once when a component loads, you should put that code:
     [x] In the body of the component function
     [] Outside the body of the compoentn function
-    [x] In a call to the useEffect hook
+    [] In a call to the useEffect hook
     [] This is impossible to do in react
 
 3. True / false: Nested components are also called child components.
