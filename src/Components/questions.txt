@@ -83,7 +83,7 @@ var fishData = [
 
     Where is fishData being passed in and how will it be referenced? And what is the ReactJS term for how fishData will be referenced?
 
-    Answer: fishData is passed in to FishTable component via prop drilling: fishes={fishData}. fishes refers to the property name. {fishData} is the state being passed in. Inside FishTable component fishData will be referred to as props by convention, unless destructured as FishData = ({fishes}). 
+    Answer: fishData is passed in to FishTable component via prop drilling: fishes={fishData}. fishes refers to the property name. {fishData} is the state being passed in. Inside FishTable component fishData will be referred to as props (object) by convention, unless destructured as FishData = ({fishes}). 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
