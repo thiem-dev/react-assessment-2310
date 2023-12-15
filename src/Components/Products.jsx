@@ -6,14 +6,12 @@ const Products = ({products}) => {
 
     // console.log(products)
 
-    return products.map((item) => {
-            return (
-                <div>
-                    <h1>${item.productData.name}</h1>
-                    <p>${item.productData.pricing}</p>
-                </div>
-            )
-        })
+    return products.map((item) => (
+            <div>
+                <h1>${item.productData.name}</h1>
+                <p>${item.productData.pricing}</p>
+            </div>
+    ))
 }
 
 export default Products
