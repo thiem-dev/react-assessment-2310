@@ -3,7 +3,7 @@ Answer all of the questions below. Make sure to save and push answers! Good luck
 1. A React component rerenders when:
     [x] It's internal state is updated
     [] useEffect is called
-    [] It's props change
+    [x] It's props change
     [] An event is fired from a node in its output
 
 2. If you want to perform an action once when a component loads, you should put that code:
@@ -17,7 +17,7 @@ Answer all of the questions below. Make sure to save and push answers! Good luck
     [] False
 
 4. (Write answer below) - What does the import keyword do? What similar keyword do we use for javascript that is running in a NodeJS environment (using CommonJS)?
-The import key word is similar to the CommonJS require statement. Both statements bring in libraries into your JS from your node_modules folder. These imported libraries is code written by other developers that allow complex apps to be written in a more concise way. 
+The import key word is similar to the CommonJS require keyword. Both keywords help bring in libraries to your JS file from your node_modules folder. These imported libraries are code written by other developers that allow complex apps to be written in a more concise way. 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
