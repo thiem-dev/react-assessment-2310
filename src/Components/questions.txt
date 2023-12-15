@@ -17,7 +17,7 @@ Answer all of the questions below. Make sure to save and push answers! Good luck
     [] False
 
 4. (Write answer below) - What does the import keyword do? What similar keyword do we use for javascript that is running in a NodeJS environment (using CommonJS)?
-
+The import key word is similar to the CommonJS require statement. Both statements bring in libraries into your JS from your node_modules folder. These imported libraries is code written by other developers that allow complex apps to be written in a more concise way. 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -49,7 +49,7 @@ Answer all of the questions below. Make sure to save and push answers! Good luck
     document.getElementById('app')
     );
 
-    Put name of component here: 
+    Put name of component here: FishTable
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -83,7 +83,7 @@ var fishData = [
 
     Where is fishData being passed in and how will it be referenced? And what is the ReactJS term for how fishData will be referenced?
 
-    Answer: 
+    Answer: fishData is passed in to FishTable component via prop drilling: fishes={fishData}. fishes refers to the property name. {fishData} is the state being passed in. Inside FishTable component fishData will be referred to as props by convention, unless destructured as FishData = ({fishes}). 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -117,7 +117,7 @@ var fishData = [
 
     What is the purpose of this code: fishes={fishData}?
 
-    answer: 
+    answer: This code is prop drilling state fishData down to be used in FishTable component.
 
 
 
