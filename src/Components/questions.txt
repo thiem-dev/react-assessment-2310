@@ -3,7 +3,7 @@ Answer all of the questions below. Make sure to save and push answers! Good luck
 1. A React component rerenders when:
     [x] It's internal state is updated
     [] useEffect is called
-    [x] It's props change
+    [] It's props change
     [] An event is fired from a node in its output
 
 2. If you want to perform an action once when a component loads, you should put that code:
